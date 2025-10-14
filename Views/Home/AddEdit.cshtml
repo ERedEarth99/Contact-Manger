@@ -1,4 +1,4 @@
-﻿@model ContactManager.Models.Contact
+﻿@model Contact_Manger.Models.Contact
 
 @{
     ViewData["Title"] = Model.ContactId == 0 ? "Add Contact" : "Edit Contact";
@@ -9,15 +9,15 @@
 <div asp-action="@ViewData["Title"]" method="delOnly" class="text-danger mb-3"></div>
 
     <div class="mb-3">
-        <label asp-for="FirstName" class="form-label"></label>
-        <input asp-for="FirstName" class="form-control" />
-        <span asp-validation-for="FirstName" class="text-danger"></span>
+        <label asp-for="Firstname" class="form-label"></label>
+        <input asp-for="Firstname" class="form-control" />
+        <span asp-validation-for="Firstname" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
-        <label asp-for="LastName" class="form-label"></label>
-        <input asp-for="LastName" class="form-control" />
-        <span asp-validation-for="LastName" class="text-danger"></span>
+        <label asp-for="Lastname" class="form-label"></label>
+        <input asp-for="Lastname" class="form-control" />
+        <span asp-validation-for="Lastname" class="text-danger"></span>
     </div>
 
     <div class="mb-3">

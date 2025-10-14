@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Contact_Manger.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Contact_Manger.Controllers //Changed from .Models to .Controllers
 {
