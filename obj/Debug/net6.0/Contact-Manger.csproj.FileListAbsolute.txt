@@ -1,0 +1,10 @@
+C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Development\Contact-Manger\obj\Debug\net6.0\Contact-Manger.csproj.AssemblyReference.cache
+C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Development\Contact-Manger\obj\Debug\net6.0\rpswa.dswa.cache.json
+C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Development\Contact-Manger\obj\Debug\net6.0\Contact-Manger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Development\Contact-Manger\obj\Debug\net6.0\Contact-Manger.AssemblyInfoInputs.cache
+C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Development\Contact-Manger\obj\Debug\net6.0\Contact-Manger.AssemblyInfo.cs
+C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Development\Contact-Manger\obj\Debug\net6.0\Contact-Manger.csproj.CoreCompileInputs.cache
+C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Development\Contact-Manger\obj\Debug\net6.0\Contact-Manger.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Development\Contact-Manger\obj\Debug\net6.0\Contact-Manger.RazorAssemblyInfo.cache
+C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Development\Contact-Manger\obj\Debug\net6.0\Contact-Manger.RazorAssemblyInfo.cs
+C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Development\Contact-Manger\obj\Debug\net6.0\Contact-Manger.sourcelink.json

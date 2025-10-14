@@ -16,3 +16,36 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Override Bootstrap button colors */
+.btn-primary {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+    .btn-primary:hover {
+        background-color: #004085;
+        border-color: #003366;
+    }
+
+/* Table styling */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.table th {
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+/* Page header */
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Form validation summary */
+.validation-summary-errors {
+    color: red;
+    margin-bottom: 15px;
+}

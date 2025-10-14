@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EzraR\\source\\repos\\Contact-Manger\\Contact-Manger.csproj": {}
+    "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Contact-Manger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EzraR\\source\\repos\\Contact-Manger\\Contact-Manger.csproj": {
+    "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Contact-Manger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EzraR\\source\\repos\\Contact-Manger\\Contact-Manger.csproj",
+        "projectUniqueName": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Contact-Manger.csproj",
         "projectName": "Contact-Manger",
-        "projectPath": "C:\\Users\\EzraR\\source\\repos\\Contact-Manger\\Contact-Manger.csproj",
-        "packagesPath": "C:\\Users\\EzraR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EzraR\\source\\repos\\Contact-Manger\\obj\\",
+        "projectPath": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Contact-Manger.csproj",
+        "packagesPath": "C:\\Users\\bschu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\EzraR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bschu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
