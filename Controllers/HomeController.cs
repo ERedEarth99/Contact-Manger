@@ -1,32 +1,18 @@
-﻿using System.Diagnostics;
-using Contact_Manger.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Contact_Manger.Controllers
+namespace Contact_Manger.Controllers //Changed from .Models to .Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controller // Changed from ErrorViewModel to HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        private ContactContext context { get; set; }
+
+        public HomeController(ContactContext ctx) => context = ctx;
 
         public IActionResult Index()
         {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            var contacts = context.Contacts.OrderBy(m => m.Lastname).ToList();
+            return View(contacts);
         }
     }
 }
