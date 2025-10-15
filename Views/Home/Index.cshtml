@@ -1,35 +1,35 @@
-﻿@model IEnumerable<Contact>
-
+﻿@model List<Contact>
 @{
-    ViewData["Title"] = "Home";
+    ViewData["Title"] = "My Contacts";
 }
 
-<h2>Contacts</h2>
+<div class="mb-2">
+    <a asp-asp-controller="Contact" asp-action="Add">Add New Contact</a>
+</div>
 
-<a class="btn btn-primary"></a>
 <table class="table table-striped">
     <thead>
         <tr>
             <th>First Name</th>
             <th>Last Name</th>
-            <th>Phone</th>
             <th>Email</th>
-            <th>Category</th>
+            <th>Phone</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var contact in Model)
         {
             <tr>
+                <td>@contact.Firstname</td>
+                <td>@contact.Lastname</td>
+                <td>@contact.Email</td>
+                <td>@contact.Phone</td>
                 <td>
-                    <a>Details@contact.FirstName</a>
+                    <a asp-controller="Contact" asp-action="Details" asp-route-id="@contact.ContactId">View</a> |
+                    <a asp-controller="Contact" asp-action="Edit" asp-route-id="@contact.ContactId">Edit</a> |
+                    <a asp-controller="Contact" asp-action="Delete" asp-route-id="@contact.ContactId" class="text-danger">Delete</a>
                 </td>
-                <td>
-                    <a>asp-action="Details" </a>
-                </td>
-                <td>@contact?.Phone</td>
-                <td>@contact?.Email</td>
-                <td>@contact?.Category?.Name</td>
             </tr>
         }
     </tbody>

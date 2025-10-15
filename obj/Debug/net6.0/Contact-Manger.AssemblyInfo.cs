@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Contact-Manger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cabf62b388327f2b4d5ea6409b50e6b20365d1c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28d4f3499eb8f13144952c69d772089c4c20aa91")]
 [assembly: System.Reflection.AssemblyProductAttribute("Contact-Manger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Contact-Manger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
