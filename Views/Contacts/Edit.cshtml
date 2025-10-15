@@ -1,0 +1,41 @@
+﻿@model Contact
+@{
+    string title = ViewBag.Action + " Contact";
+    ViewData["Title"] = title;
+}
+
+<h2>@ViewBag.Title</h2>
+
+<form asp-action="Edit" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="Firstname" class="form-label">Last Name</label>
+        <input asp-for="Firstname" class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Lastname" class="form-label">First Name</label>
+        <input asp-for="Lastname" class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Phone" class="form-label">Phone</label>
+        <input asp-for="Phone" class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">Email</label>
+        <input asp-for="Email" class="form-control">
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Category" class="form-label">Category</label>
+        <input asp-for="Category" class="form-control">
+    </div>
+
+    <input type="hidden" asp-for="ContactId" />
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Cancel</a>
+</form>
