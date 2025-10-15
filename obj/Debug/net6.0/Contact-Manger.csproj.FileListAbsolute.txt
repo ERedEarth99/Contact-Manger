@@ -67,3 +67,4 @@ C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Devel
 C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Development\Contact-Manger\obj\Debug\net6.0\Contact-Manger.pdb
 C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Development\Contact-Manger\obj\Debug\net6.0\Contact-Manger.genruntimeconfig.cache
 C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Development\Contact-Manger\obj\Debug\net6.0\ref\Contact-Manger.dll
+C:\Users\bschu\OneDrive - Southeast Technical College\STC Fall 2025\MS Web Development\Contact-Manger\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll

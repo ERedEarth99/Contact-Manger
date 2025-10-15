@@ -16,7 +16,7 @@ namespace Contact_Manger.Controllers
                 .Include(c => c.Category)
                 .OrderBy(c => c.Lastname)
                 .ThenBy(c => c.Firstname)
-                .ToList();
+                .ToListAsync();
             return View(contacts);
         }
 
