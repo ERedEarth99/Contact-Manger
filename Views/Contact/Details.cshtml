@@ -1,13 +1,13 @@
-﻿@model Contact_Manger.Models.Contact
+﻿@model Contact
 
 @{
     ViewData["Title"] = "Contact Details";
 }
 
-<h2>Contact Details</h2>
+
 
 <div>
-    <h4>Contact</h4>
+    <h2>Contact Details</h2>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
@@ -66,5 +66,7 @@
 <div>
     <input type="hidden" asp-for="ContactId" />
 
+    <a asp-controller="Contact" asp-action="Edit" class="btn btn-primary" asp-route-id="@Model.ContactId">Edit</a>
+    <a asp-controller="Contact" asp-action="Delete" class="btn btn-primary" asp-route-id="@Model.ContactId">Delete</a>
     <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Back to Contacts</a>
 </div>

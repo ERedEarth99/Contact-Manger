@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|c:\\users\\bschu\\onedrive - southeast technical college\\stc fall 2025\\ms web development\\contact-manger\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|c:\\users\\bschu\\onedrive - southeast technical college\\stc fall 2025\\ms web development\\contact-manger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|c:\\users\\bschu\\onedrive - southeast technical college\\stc fall 2025\\ms web development\\contact-manger\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|c:\\users\\bschu\\onedrive - southeast technical college\\stc fall 2025\\ms web development\\contact-manger\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|c:\\users\\bschu\\onedrive - southeast technical college\\stc fall 2025\\ms web development\\contact-manger\\views\\contact\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|solutionrelative:views\\contact\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|c:\\users\\bschu\\onedrive - southeast technical college\\stc fall 2025\\ms web development\\contact-manger\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|c:\\users\\bschu\\onedrive - southeast technical college\\stc fall 2025\\ms web development\\contact-manger\\views\\contact\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|solutionrelative:views\\contact\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|c:\\users\\bschu\\onedrive - southeast technical college\\stc fall 2025\\ms web development\\contact-manger\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|c:\\users\\bschu\\onedrive - southeast technical college\\stc fall 2025\\ms web development\\contact-manger\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|c:\\users\\bschu\\onedrive - southeast technical college\\stc fall 2025\\ms web development\\contact-manger\\views\\contact\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|solutionrelative:views\\contact\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|c:\\users\\bschu\\onedrive - southeast technical college\\stc fall 2025\\ms web development\\contact-manger\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,8 +35,8 @@
       "RelativeMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|c:\\users\\bschu\\onedrive - southeast technical college\\stc fall 2025\\ms web development\\contact-manger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|c:\\users\\bschu\\onedrive - southeast technical college\\stc fall 2025\\ms web development\\contact-manger\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8F7DAF2-C3D1-406C-AEA7-A9ACE13980C1}|Contact-Manger.csproj|c:\\users\\bschu\\onedrive - southeast technical college\\stc fall 2025\\ms web development\\contact-manger\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -50,7 +54,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Models\\Contact.cs",
+              "RelativeToolTip": "Models\\Contact.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T04:28:11.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -58,43 +75,43 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T03:21:07.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T03:21:07.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T23:33:54.038Z"
+              "WhenOpened": "2025-10-15T23:33:54.038Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ContactController.cs",
               "DocumentMoniker": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Controllers\\ContactController.cs",
               "RelativeDocumentMoniker": "Controllers\\ContactController.cs",
               "ToolTip": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Controllers\\ContactController.cs",
               "RelativeToolTip": "Controllers\\ContactController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAmwCoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T23:32:15.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-14T23:11:39.325Z",
               "EditorCaption": ""
@@ -107,40 +124,40 @@
               "RelativeDocumentMoniker": "Views\\Contact\\Edit.cshtml",
               "ToolTip": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Views\\Contact\\Edit.cshtml",
               "RelativeToolTip": "Views\\Contact\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAD4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-14T23:11:41.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Views\\Contact\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Contact\\Delete.cshtml",
               "ToolTip": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Views\\Contact\\Delete.cshtml",
               "RelativeToolTip": "Views\\Contact\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-15T23:12:13.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Views\\Contact\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Contact\\Details.cshtml",
               "ToolTip": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Views\\Contact\\Details.cshtml",
               "RelativeToolTip": "Views\\Contact\\Details.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACwAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-15T01:45:08.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -152,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\bschu\\OneDrive - Southeast Technical College\\STC Fall 2025\\MS Web Development\\Contact-Manger\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -160,7 +177,8 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-15T03:19:12.639Z"
+              "WhenOpened": "2025-10-15T03:19:12.639Z",
+              "EditorCaption": ""
             }
           ]
         }

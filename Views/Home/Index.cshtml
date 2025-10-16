@@ -23,15 +23,15 @@
         @foreach (var contact in Model)
         {
             <tr>
-                <td><a asp-controller="Contact" asp-action="Details" asp-route-id="@contact.ContactId">@contact.Firstname</a></td>
-                <td><a asp-controller="Contact" asp-action="Details" asp-route-id="@contact.ContactId">@contact.Lastname</a></td>
+                <td><a asp-controller="Contact" asp-action="Details" asp-route-id="@contact.ContactId" asp-route-slug="@contact.Slug">@contact.Firstname</a></td>
+                <td><a asp-controller="Contact" asp-action="Details" asp-route-id="@contact.ContactId" asp-route-slug="@contact.Slug">@contact.Lastname</a></td>
                 <td>@contact.Email</td>
                 <td>@contact.Phone</td>
                 <td>@contact.Category?.Name</td>
                 <td>@contact.Organization</td>
                 <td>
-                    <a asp-controller="Contact" asp-action="Edit" asp-route-id="@contact.ContactId">Edit</a> |
-                    <a asp-controller="Contact" asp-action="Delete" asp-route-id="@contact.ContactId" class="text-danger">Delete</a>
+                    <a asp-controller="Contact" asp-action="Edit" asp-route-id="@contact.ContactId" asp-route-slug="@contact.Slug">Edit</a> |
+                    <a asp-controller="Contact" asp-action="Delete" asp-route-id="@contact.ContactId" asp-route-slug="@contact.Slug"  class="text-danger">Delete</a>
                 </td>
             </tr>
         }
