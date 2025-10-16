@@ -12,37 +12,38 @@
             <table class="table table-bordered mb-0">
                 <tbody>
                     <tr>
-                        <th scope="row" class="w-25">Name:</th>
+                        <th scope="row" class="w-25 col-sm-2">Name:</th>
                         <td>@Model.Firstname @Model.Lastname</td>
                     </tr>
                     <tr>
-                        <th scope="row">Phone:</th>
+                        <th scope="row" class="col-sm-2">Phone:</th>
                         <td>@Model.Phone</td>
                     </tr>
                     <tr>
-                        <th scope="row">Email:</th>
+                        <th scope="row" class="col-sm-2">Email:</th>
                         <td><a href="mailto:@Model.Email">@Model.Email</a></td>
                     </tr>
                     <tr>
-                        <th scope="row">Category:</th>
+                        <th scope="row" class="col-sm-2">Category:</th>
                         <td>@Model.Category?.Name</td>   @* not CategoryId *@
                     </tr>
                     <tr>
-                        <th scope="row">Organization:</th>
+                        <th scope="row" class="col-sm-2">Organization:</th>
                         <td>@Model.Organization</td>
                     </tr>
                     <tr>
-                        <th scope="row">Date added:</th>
+                        <th scope="row" class="col-sm-2">Date added:</th>
                         <td>@Model.DateAdded.ToString("M/d/yyyy h:mm tt")</td>
                     </tr>
                 </tbody>
             </table>
         </div>
+        <div class="mt-3 d-flex gap-2">
+            <input type="hidden" asp-for="ContactId" />
 
-<div class="mt-3 d-flex gap-2">
-    <input type="hidden" asp-for="ContactId" />
-
-    <a asp-controller="Contact" asp-action="Edit" class="btn btn-dark" asp-route-id="@Model.ContactId">Edit</a>
-    <a asp-controller="Contact" asp-action="Delete" class="btn btn-dark" asp-route-id="@Model.ContactId">Delete</a>
-    <a asp-controller="Home" asp-action="Index" class="btn btn-dark">Back to Contacts</a>
+            <a asp-controller="Contact" asp-action="Edit" class="btn btn-dark" asp-route-id="@Model.ContactId">Edit</a>
+            <a asp-controller="Contact" asp-action="Delete" class="btn btn-dark" asp-route-id="@Model.ContactId">Delete</a>
+            <a asp-controller="Home" asp-action="Index" class="btn btn-dark">Back to Contacts</a>
+        </div>
+    </div>
 </div>
