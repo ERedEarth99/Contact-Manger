@@ -4,7 +4,7 @@
 }
 
 <div class="mb-2">
-    <a asp-asp-controller="Contact" asp-action="Add">Add New Contact</a>
+    <a asp-controller="Contact" asp-action="Add">Add New Contact</a>
 </div>
 
 <table class="table table-striped">
@@ -29,7 +29,7 @@
                 <td>@contact.Phone</td>
                 <td>@contact.Category?.Name</td>
                 <td>@contact.Organization</td>
-                <td> |
+                <td>
                     <a asp-controller="Contact" asp-action="Edit" asp-route-id="@contact.ContactId">Edit</a> |
                     <a asp-controller="Contact" asp-action="Delete" asp-route-id="@contact.ContactId" class="text-danger">Delete</a>
                 </td>

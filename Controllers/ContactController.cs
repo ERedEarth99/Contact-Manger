@@ -58,7 +58,7 @@ namespace Contact_Manger.Controllers
             }
 
             context.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Home");
         }
 
         // DELETE (GET - confirm)
@@ -76,9 +76,13 @@ namespace Contact_Manger.Controllers
         [HttpPost]
         public IActionResult Delete(Contact contact)
         {
-            context.Contacts.Remove(contact);
-            context.SaveChanges();
-            return RedirectToAction("Index");
+            var contactToDelete = context.Contacts.Find(contact.ContactId);
+            if (contactToDelete != null)
+            {
+                context.Contacts.Remove(contactToDelete);
+                context.SaveChanges();
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         // DETAILS (GET)

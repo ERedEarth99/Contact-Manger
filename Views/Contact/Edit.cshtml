@@ -6,6 +6,8 @@
 
 <h2>@ViewBag.Title</h2>
 
+<p>Fields with * are required</p>
+
 <form asp-action="Edit" method="post">
     <div asp-validation-summary="All" class="text-danger"></div>
 
@@ -30,13 +32,18 @@
     </div>
 
     <div class="mb-3">
-        <label asp-for="Category" class="form-label">*Category</label>
-        <input asp-for="Category" class="form-control">
+        <label asp-for="CategoryId" class="form-label">*Category</label>
+        <select asp-for="CategoryId"
+                asp-items="@(new SelectList((IEnumerable<Contact_Manger.Models.Category>)ViewBag.Categories, "CategoryId", "Name"))"
+                class="form-select">
+            <option value="">-- select category --</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
-        <label asp-for="Organization" class="form-label">Organization</label>
-        <input asp-for="Organization" class="form-control">
+        <label asp-for="Category" class="form-label">Organization</label>
+        <input asp-for="Category" class="form-control">
     </div>
 
     <input type="hidden" asp-for="ContactId" />
