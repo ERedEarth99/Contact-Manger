@@ -4,69 +4,45 @@
     ViewData["Title"] = "Contact Details";
 }
 
+<h2 class="mb-4">Contact Details</h2>
 
+<div class="card border-0 shadow-sm">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered mb-0">
+                <tbody>
+                    <tr>
+                        <th scope="row" class="w-25">Name:</th>
+                        <td>@Model.Firstname @Model.Lastname</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Phone:</th>
+                        <td>@Model.Phone</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Email:</th>
+                        <td><a href="mailto:@Model.Email">@Model.Email</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Category:</th>
+                        <td>@Model.Category?.Name</td>   @* not CategoryId *@
+                    </tr>
+                    <tr>
+                        <th scope="row">Organization:</th>
+                        <td>@Model.Organization</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Date added:</th>
+                        <td>@Model.DateAdded.ToString("M/d/yyyy h:mm tt")</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-<div>
-    <h2>Contact Details</h2>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Firstname)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Firstname)
-        </dd>
-
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Lastname)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Lastname)
-        </dd>
-
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Phone)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Phone)
-        </dd>
-
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.CategoryId)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.CategoryId)
-        </dd>
-
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Organization)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Organization)
-        </dd>
-
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.DateAdded)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.DateAdded)
-        </dd>
-
-        <!-- Add more fields as needed -->
-    </dl>
-</div>
-
-<div>
+<div class="mt-3 d-flex gap-2">
     <input type="hidden" asp-for="ContactId" />
 
-    <a asp-controller="Contact" asp-action="Edit" class="btn btn-primary" asp-route-id="@Model.ContactId">Edit</a>
-    <a asp-controller="Contact" asp-action="Delete" class="btn btn-primary" asp-route-id="@Model.ContactId">Delete</a>
-    <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Back to Contacts</a>
+    <a asp-controller="Contact" asp-action="Edit" class="btn btn-dark" asp-route-id="@Model.ContactId">Edit</a>
+    <a asp-controller="Contact" asp-action="Delete" class="btn btn-dark" asp-route-id="@Model.ContactId">Delete</a>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-dark">Back to Contacts</a>
 </div>

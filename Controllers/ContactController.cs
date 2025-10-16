@@ -25,6 +25,7 @@ namespace Contact_Manger.Controllers
         public IActionResult Add()
         {
             ViewBag.Categories = context.Categories.OrderBy(c => c.Name).ToList();
+            ViewBag.Action = "Add";
             return View("Edit", new Contact());
         }
 
@@ -33,6 +34,7 @@ namespace Contact_Manger.Controllers
         public IActionResult Edit(int id)
         {
             ViewBag.Categories = context.Categories.OrderBy(c => c.Name).ToList();
+            ViewBag.Action = "Edit";
             var contact = context.Contacts.Find(id);
             if (contact == null) return NotFound();
             return View(contact);
