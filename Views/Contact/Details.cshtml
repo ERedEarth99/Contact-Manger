@@ -38,11 +38,33 @@
             @Html.DisplayFor(model => model.Phone)
         </dd>
 
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Category)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Organization)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Organization)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
         <!-- Add more fields as needed -->
     </dl>
 </div>
 
 <div>
-    <a>Edit</a>
-    <a>Back to List</a>
+    <input type="hidden" asp-for="ContactId" />
+
+    <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Back to Contacts</a>
 </div>

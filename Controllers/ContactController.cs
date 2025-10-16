@@ -16,7 +16,7 @@ namespace Contact_Manger.Controllers
                 .Include(c => c.Category)
                 .OrderBy(c => c.Lastname)
                 .ThenBy(c => c.Firstname)
-                .ToListAsync();
+                .ToList();
             return View(contacts);
         }
 
@@ -73,12 +73,26 @@ namespace Contact_Manger.Controllers
         }
 
         // DELETE (POST)
+        [HttpPost]
         public IActionResult Delete(Contact contact)
         {
             context.Contacts.Remove(contact);
             context.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        // DETAILS (GET)
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            var contact = context.Contacts
+                .Include(c => c.Category)
+                .FirstOrDefault(c => c.ContactId == id);
+
+            if (contact == null) return NotFound();
+            return View(contact);
+        }
+
 
     }
 }
